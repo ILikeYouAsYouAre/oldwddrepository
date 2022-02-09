@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.portrait {
+    max-width: 1%;
+}

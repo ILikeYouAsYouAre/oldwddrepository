@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Demo</title>
+    <style>
+    #content {display: grid;
+    grid-template-columns: 100px 100px 100px;
+    }
+
+    .red {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+    .orange {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        width: 100%;
+        height: 100%;
+        background-color: orangered;
+    }
+    .yellow {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        width: 100%;
+        height: 100%;
+        background-color: yellow;
+    }
+    .green {
+        grid-column: 1/3;
+        grid-row: 3/3;
+        width: 100%;
+        height: 100%;
+        background-color: green;
+    }
+    .blue {
+        grid-column: 3/3;
+        grid-row: 1/3;
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+    }
+    .purple {
+        grid-column: 3/3;
+        grid-row: 3/3;
+        width: 100%;
+        height: 100%;
+        background-color: purple;
+    }
+    </style>
+</head>
+
+<body>
+    <div id='content'>
+        <div class="red"></div>
+        <div class="orange"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+        <div class="purple"></div>
+    </div>
+    <a href="index.html">poggers</a>
+</body>
+</html>
