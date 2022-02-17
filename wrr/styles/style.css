@@ -8,8 +8,8 @@ img {
 }
 
 #hero-img {
-    width: 800px
-    height: auto
+    width: 800px;
+    height: auto;
 }
 
 h1 {
@@ -20,4 +20,4 @@ h2{
     font-size: 1em;
 }
 
-16px = 1em
+/* 16px = 1em */
