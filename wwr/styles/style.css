@@ -1,23 +1,121 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero_msg h1, #hero_msg h4 {
+    text-align: center;
+    color: #580065;
+}
+
+.button_box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #580065;
+}
+
 body {
-    background-color: pink;
-    font-size: 100%;
+    background-color: #ebebeb;
 }
 
-img {
-    max-width: 100%
+header {
+    background-color: #bb9c12;
+    color: #580065;
+    margin-bottom: 1em;
 }
 
-#hero-img {
-    width: 800px;
-    height: auto;
+nav a {
+    color: #580065;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em;
+    text-decoration: none;
 }
 
-h1 {
-    font-size: 16px;
+
+
+nav a:hover {
+    color: #bb9c12;
+    background-color: #580065;
 }
 
-h2{
-    font-size: 1em;
+.book, .join {
+    color: #580065;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em;
+    text-decoration: none;
 }
 
-/* 16px = 1em */
+.join {
+    color: #ebebeb;
+    font-size: 1.5em;
+}
+
+.book:hover, .join:hover {
+    background-color: #adadad;
+    color: #580065;
+}
+
+.msg {
+    background-color: #580065;
+}
+
+main {
+    color: #ebebeb;
+}
+
+footer {
+    background-color: #bb9c12;
+}
+
+a {
+    color: #580065;
+}
+
+footer a {
+    color: #580065;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bb9c12;
+    background-color: #580065;
+}
+
+#footer_title {
+    color: #580065;
+}
+
+.logo {
+    width: 80px;
+    margin: auto 0.5em;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero_img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    background-color: #adadad;
+    padding: .5em 15em;
+}
+

@@ -1,0 +1,16 @@
+body {
+    background-color: blue;
+    width: 100%;
+    height: 1000px;
+    padding: 0px;
+    margin: 0px;
+    align-items: right;
+    align-content: right;
+    text-align: right;
+}
+
+p {
+    align-items: right;
+    width: 100px;
+    align-items: right;
+}
